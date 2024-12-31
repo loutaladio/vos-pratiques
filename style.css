@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#entete{
+    background: #c84545;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#contenu{
+    margin: 9px;
+    align-items: center;
+}
+
+#contenu #section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background-color: rgb(62, 24, 24);
+    padding: 4px;
+    margin-bottom: 3%;
+}
+
+#contenu #section1 h3{
+    font-size: 54px;
+    margin-right: 19px;
+    text-decoration: underline red;
+    font-weight: 400;
+    border-left: solid rgb(185, 185, 25);
+}
+
+#contenu #section1 img{
+    border-radius: 76px;
+    width: 260px;
+}
+
+P{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: 10;
+    text-align: center;
+}
+
+#piegt{
+    background-color: #c84545;
+    padding: 11px;
+}
+
+#piegt p{
+    text-align: center;
+}
+
+h4{
+    font: 400;
+    font-size: 22px;
+    color: red;
+}
